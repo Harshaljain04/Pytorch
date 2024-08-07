@@ -1,0 +1,10 @@
+name: pytorch
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12.4  # specify the Python version
+  - pytorch
+  - torchvision
+  - torchaudio
